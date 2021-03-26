@@ -105,20 +105,23 @@ export default {
     },
     actionArchitecture(){
       this.listtext=1
-      document.documentElement.scrollTop=500
+      let child  = document.getElementById("censusId")
+      document.documentElement.scrollTop  = (child.offsetTop - 130)
     },
     actionEcosy() {
       this.listtext=2
-      document.documentElement.scrollTop=1300
+      let child  = document.getElementById("muchId")
+      document.documentElement.scrollTop  = (child.offsetTop)
     },
     actionRoadMap(){
       this.listtext=3
-      document.documentElement.scrollTop=2200
-      // document.querySelector('#homeId').style.transform = 'translateX(0px) translateY(640PX)'
+      let child  = document.getElementById("protocolId")
+      document.documentElement.scrollTop  = (child.offsetTop)
     },
     actionTeam(){
       this.listtext=4
-      document.documentElement.scrollTop=3100
+      let child  = document.getElementById("infoId")
+      document.documentElement.scrollTop  = (child.offsetTop)
     },
     actionContact(){
       this.listtext=5
