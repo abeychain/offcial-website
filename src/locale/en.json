@@ -1,0 +1,180 @@
+{
+	"header": {
+		"navList": [
+			{
+				"key": "",
+				"name": "ABEY",
+				"path": "/"
+			},
+			{
+				"key": "technology",
+				"name": "Characteristic",
+				"path": "censusId"
+			},
+			{
+				"key": "ecosystem",
+				"name": "Frame diagram",
+				"path": "muchId"
+			},
+			{
+				"key": "map",
+				"name": "AVM diagram",
+				"path": "protocolId"
+			},
+			{
+				"key": "team",
+				"name": "Application Scenario",
+				"path": "infoId"
+			}
+		],
+		"langList": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			}
+		]
+	},
+	"notice": {
+		"navList": [
+			{
+				"name": "TetraPay specializes in innovative payment technology and security, offering users with a safe and practical solution for a new era in mobile payment and financial possibilities."
+			}
+		],
+		"apple": {
+			"down": "Download on the",
+			"text": "App Store"
+		},
+		"goole": {
+			"down": "Get it on",
+			"text": "Google Play"
+		}
+	},
+	"Protocol": {
+		"pay": {
+			"title": "Pay",
+			"text": "We equip your cell phone with a powerful QR code reader and payment slips,point,scan and make the payment"
+		},
+		"receive": {
+			"title": "Receive",
+			"text": "Set how much you want to receive,display the code generanted for those who will pay to receive you money"
+		},
+		"send": {
+			"title": "Send",
+			"text": "Sending money doesn’s have to be complicanted.Friends,family and other contacts can easily receive you money"
+		},
+		"manage": {
+			"title": "Manage",
+			"text": "Manage,exchange and invest your assets with our multichain wallet. Check you balance and expenses.Fast,easy and safe"
+		}
+	},
+	"Census": {
+		"text": "A 1:1 anchored digital stable currency issued relying on banks, settlement agencies, and commercial institutions in each country; ensuring value anchoring through strict mathematical models, and relying on financial services such as wealth management, lending, insurance and other financial services to ensure user profitability while removing hidden costs in currency circulation. Our goal is to achieve a free flow of various anchored currencies."
+	},
+	"Info":{
+		"title": "TetraPay Ecological map"
+	},
+	"Much": {
+		"title": "Much More Than Just a Wallet",
+		"info": {
+			"a": "Crypto & Fiat Payment Solution",
+			"b": "Settlement in Local Fiat Currencies",
+			"c": "Pay Anywhere in Any Currency Available"
+		}
+	},
+	"Earn": {
+		"info": {
+			"a": "Earning Opportunities",
+			"b": "The agreement and algorithm of the TetraPay currency system ensures that the price of the Tetra currency is relatively stable, which is suitable for long-time savings. The system will also provide a higher incentive ratio for users who save regularly, obtaining a return on investment significantly higher than any commercial bank’s interest rate.",
+			"c": "Investment Products",
+			"d": "Staking, Pledged Loans and many other financial opportunities straight from our app"
+		}
+	},
+	"Cryp": {
+		"lable": "Technical Advantages",
+		"manage": {
+			"title": "Fast Real-Time Confirmation",
+			"text": "Using Polkadot's cross-chain protocol, assets can be directly pledged or liquidated into local fiat currency, quickly settled, and confirmed in milliseconds."
+		},
+		"exchange": {
+			"title": "Deep Learning Mode",
+			"text": "Original Rui's algorithm is based on the combination of machine learning, artificial intelligence and offline economic models, so that the exchange rate have minimal fluctuations and is more convenient for offline payments."
+		},
+		"invest": {
+			"title": "Agency Payment Mechanism",
+			"text": "Merchants bear the gas cost when users pay,so that the user can pay without loss, and the merchant will receive a subsidy to offset the gas costs."
+		}
+	},
+	"Roadmap": {
+		"lable":" Roadmap",
+		"left":{
+			"title": "Technology development",
+			"date": {
+				"a": "Q4 2020",
+				"b": "Q2 2021",
+				"c": "Q3-Q4 2021",
+				"d": "Q1-2022"
+			},
+			"text": {
+				"a": "Build a Polkadot parallel chain tetra chain based on Substrate",
+				"b": "Payara benchmark algorithm, Oracle price anchoring, and Tetra exchange",
+				"c": " Launch of TetraChain mainnet to test the switch of TetraPay Payment App from the source chain to TetraChain ",
+				"d": "Realize savings and other defi business needs"
+			}
+		},
+		"right":{
+			"title": "Business expansion",
+			"date": {
+				"a": "Q4 2020",
+				"b": "Q1 2021",
+				"c": "Q3-Q4 2021",
+				"d": "Q1-2022"
+			},
+			"text": {
+				"a": "TetraPay Payment App test launch in Brazil and South Korea",
+				"b": "TetraPay Payment App Official launch",
+				"c": "Expansion to SEA market (Thailand, Vietnam, Malaysia, and others)",
+				"d": "Global expansion (Europe, North America and other territories)"
+			}
+		},
+		"check": {
+			"a": "Check our app for a full lish of partnered establishments",
+			"b": "I want to accredit my establishment"
+		}
+	},
+	"Footer": {
+		"list": {
+			"a": "Developer support: ",
+			"b": "Contact Us :",
+			"c": "© 2020 ABEY Network Foundation,All Rights Reseved"
+		},
+		"SocialMedia": {
+			"label": "Social media：",
+			"textList": [
+				{
+					"name": "Instructions of MetaMask",
+					"url": "https://true-static-file.s3.amazonaws.com/tetrapay/enjoytetrapay.pdf"
+				}
+			],
+			"instruList": [
+				{
+					"name": "Instructions of Bitkeep",
+					"url": "https://true-static-file.s3.amazonaws.com/tetrapay/tetrapay.cash.pdf"
+				}
+			],
+			"IconList": [
+				{
+					"icon": "ft-twitter",
+					"key": "",
+					"url": "https://twitter.com/tetrapaycasher"
+				}
+			]
+		}
+	}
+}
