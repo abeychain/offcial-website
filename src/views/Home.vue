@@ -6,10 +6,7 @@
     <census />
     <much-more/>
     <protocol />
-<!--    <earn/>-->
     <info />
-<!--    <cryptoassets/>-->
-<!--    <roadmap/>-->
     <my-footer />
   </div>
 </template>
@@ -21,19 +18,13 @@ import Notice from '@/components/notice'
 import Protocol from '@/components/Protocol'
 import Census from '@/components/Census'
 import Info from '@/components/Info'
-import Roadmap from '@/components/Roadmap'
 import MyFooter from '@/components/Footer'
-import Cryptoassets from "@/components/Cryptoassets";
 import MuchMore from "@/components/MuchMore";
-// import Earn from "@/components/Earn";
 
 export default {
   name: 'home',
   components: {
-    // Earn,
     MuchMore,
-    Roadmap,
-    Cryptoassets,
     MyHeader,
     MyHeaderMobile,
     Notice,
