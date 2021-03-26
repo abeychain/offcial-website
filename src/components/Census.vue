@@ -189,7 +189,7 @@
           <div class="censu-info">
             <!--              <div class="censu-info-top">-->
             <img src="../assets/image/census/icon1.png"/>
-            <span>Multi Layer Consensus</span>
+            <span>ABEY Consensus</span>
             <!--              </div>-->
             <div class="censu-info-text">ABEY2.0 follows a design paradigm where DPoS and PoW are combined together to
               attain high levels of scalability and consistency without significant reduction to decentralization.
@@ -197,14 +197,14 @@
           </div>
           <div class="censu-info">
             <img src="../assets/image/census/icon2.png"/>
-            <span>Multi-layered</span>
+            <span>Multi-layered Architecture</span>
             <div class="censu-info-text">ABEY2.0 would use a multi-layered framework to adapt one slow chain and several
               fast chains to extend scalability.
             </div>
           </div>
           <div class="censu-info">
             <img src="../assets/image/census/icon3.png"/>
-            <span>AVM</span>
+            <span>ABEY Virtual Machine </span>
             <div class="censu-info-text">AVM is a high-performance virtual machine based on WebAssembly. It can can run
               code at a speed close to the native computer hardware speed, while also providing a more flexible contract
               interface.
