@@ -315,9 +315,9 @@
       <div class="footer-content">
         <div class="footer-icon">
           <img  src="../assets/image/footer/t.png"/>
-<!--          <a href="mailto:team@tetra.cash">-->
-            <img @click="goE" class="footer-icon-e" src="../assets/image/footer/e.png"/>
-<!--          </a>-->
+          <a href="mailto:inquiry@abeychain.com">
+            <img  class="footer-icon-e" src="../assets/image/footer/e.png"/>
+          </a>
         </div>
         <div class="footer-content-text">{{$t('Footer.list.a')}}</div>
         <div class="footer-content-text">{{$t('Footer.list.b')}}</div>
@@ -332,7 +332,7 @@ export default {
   name: 'Footer.vue',
   methods:{
     goE() {
-      // window.open("team@tetra.cash","_blank")
+      window.open("inquiry@abeychain.com","_blank")
     },
     goT() {
       window.open("https://twitter.com/TetraPay_App","_blank")
