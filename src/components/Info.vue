@@ -369,12 +369,12 @@
               <img src="../assets/image/info/icon2.png"/>
               <span>Stable coin</span>
               <div class="censu-info-text">
-                Stable coin could be deployed in ABEY chain as medium of exchange to avoid price fluctuations.
+                The ACASH Token (ACT) is a stable coin deployed in ABEYCHAIN as medium of exchange 1:1 with USD to avoid price fluctuations.
               </div>
             </div>
             <div class="censu-info">
               <img src="../assets/image/info/icon3.png"/>
-              <span>Decentralized Businesses Contract</span>
+              <span>Decentralized Business (Smart) Contracts</span>
               <div class="censu-info-text censu-info-text-s">
                 Businesses Contract such as Loan couldbe designed as a smart contract and deployed in ABEY network. The restoperation would be executed automatically once the terms of the contract ismet.
               </div>
