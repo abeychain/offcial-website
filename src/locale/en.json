@@ -25,6 +25,16 @@
 				"key": "team",
 				"name": "Application Scenario",
 				"path": "infoId"
+			},
+			{
+				"key": "github",
+				"name": "GitHub",
+				"path": "https://github.com/abeychain"
+			},
+			{
+				"key": "DownLoad",
+				"name": "download",
+				"path": "downId"
 			}
 		],
 		"langList": [

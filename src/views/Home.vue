@@ -7,6 +7,7 @@
     <much-more/>
     <protocol />
     <info />
+    <down-load />
     <my-footer />
   </div>
 </template>
@@ -20,10 +21,12 @@ import Census from '@/components/Census'
 import Info from '@/components/Info'
 import MyFooter from '@/components/Footer'
 import MuchMore from "@/components/MuchMore";
+import DownLoad from "@/components/DownLoad";
 
 export default {
   name: 'home',
   components: {
+    DownLoad,
     MuchMore,
     MyHeader,
     MyHeaderMobile,

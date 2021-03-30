@@ -12,7 +12,7 @@
       align-items: center;
       justify-content: center;
       padding-top: 170px;
-      padding-bottom: 200px;
+      //padding-bottom: 200px;
     }
 
     .info-img {

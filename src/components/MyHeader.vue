@@ -24,6 +24,14 @@
             <span :class="listtext==4?'header-list-text-color':''">Application Scenario</span>
             <div class="line" v-show="listtext==4"></div>
           </div>
+          <div @click="actionGitHub()" class="header-list-text">
+            <span :class="listtext==5?'header-list-text-color':''">GitHub</span>
+            <div class="line" v-show="listtext==5"></div>
+          </div>
+          <div @click="actionDown()" class="header-list-text">
+            <span :class="listtext==6?'header-list-text-color':''">DownLoad</span>
+            <div class="line" v-show="listtext==6"></div>
+          </div>
 <!--          <div @click="actionContact()" class="header-list-text">-->
 <!--            <span :class="listtext==5?'header-list-text-color':''">Contact Us</span>-->
 <!--            <div class="line" v-show="listtext==5"></div>-->
@@ -91,10 +99,16 @@ export default {
       else if(top>=2000 &&top<3100) {
         this.listtext=3
       }
-      else if(top>=3100 &&top<3400) {
+      else if(top>=3100 &&top<3700) {
         this.listtext=4
       }
-      else if(top>=3500) {
+      else if(top>=3700 &&top<4000) {
+        this.listtext=-1
+      }
+      else if(top>=4000  &&top<4400) {
+        this.listtext=6
+      }
+      else if(top>=4400 ) {
         this.listtext=-1
       }
 
@@ -128,8 +142,13 @@ export default {
       document.documentElement.scrollTop=8800
     },
     actionGitHub(){
-      this.listtext=4
-      // window.open("https://github.com/idavollnetwork")
+      this.listtext=5
+      window.open("https://github.com/abeychain")
+    },
+    actionDown() {
+      this.listtext=6
+      let child  = document.getElementById("downId")
+      document.documentElement.scrollTop  = (child.offsetTop)
     },
     changeNav(item, ins) {
       this.activeNav = item.key
@@ -296,7 +315,7 @@ export default {
       align-items: center;
       justify-content: flex-start;
       cursor: pointer;
-      margin-left: 30px;
+      margin-left: 20px;
       span {
         line-height: 40px;
         height: 40px;
