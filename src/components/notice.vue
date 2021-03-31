@@ -238,7 +238,7 @@
         <div class="notice-content">
           <!--          <img class="notice-icon" src="../assets/image/notice/text-icon.png"/>-->
           <div class="notice-text">
-            ABEY2.0 is a Hybrid consensus multi-layered blockchain systems which incorporates DPoS (Delegated Proof of Stake) and POW (Proof of Work) consensus. It’s aim to support High-Volume transactions based on sharding and ABEY Virtual Machine(AVM).
+            ABEY2.0 is a Hybrid consensus multi-layered blockchain systems which incorporates DPoS (Delegated Proof of Stake) and POW (Proof of Work) consensus. It’s aim is to support High-Volume transactions based on sharding and ABEY Virtual Machine(AVM).
           </div>
         </div>
 <!--        <div class="notice-button">-->

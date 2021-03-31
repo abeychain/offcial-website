@@ -184,7 +184,7 @@
   <div class="census" id="censusId" v-animate-onscroll.repeat="{down: 'animated'}">
     <div class="census-container">
       <div class="census-center">
-        <div class="census-title" :class="{'animated fadeInUp':flag }">Characteristic</div>
+        <div class="census-title" :class="{'animated fadeInUp':flag }">Characteristics</div>
         <div class="censu-content">
           <div class="censu-info">
             <!--              <div class="censu-info-top">-->
@@ -205,7 +205,7 @@
           <div class="censu-info">
             <img src="../assets/image/census/icon3.png"/>
             <span>ABEY Virtual Machine </span>
-            <div class="censu-info-text">AVM is a high-performance virtual machine based on WebAssembly. It can can run
+            <div class="censu-info-text">AVM is a high-performance virtual machine based on WebAssembly. It can run
               code at a speed close to the native computer hardware speed, while also providing a more flexible contract
               interface.
             </div>
