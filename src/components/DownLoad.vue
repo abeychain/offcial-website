@@ -73,6 +73,13 @@
   }
 }
 
+.down-infos {
+  opacity: 0.4;
+  cursor: no-drop;
+}
+
+
+
 @media(max-width: 1200px) {
   .down-container{
     width: 100%;
@@ -121,15 +128,15 @@
     <div class="down-container">
       <div class="down-title" :class="['sub-title', {'animated fadeInUp': flag}]">Download ABEY Wallet APP</div>
       <div class="down-content">
-        <div class="down-info">
+        <div class="down-info down-infos">
           <img src="../assets/image/down/apple.png"/>
           <span>iOS</span>
         </div>
-        <div class="down-info">
+        <div class="down-info down-infos">
           <img src="../assets/image/down/adro.png"/>
           <span>GooglePlay</span>
         </div>
-        <div class="down-info">
+        <div @click="actionAndroid()" class="down-info">
           <img src="../assets/image/down/adro.png"/>
           <span>Android</span>
         </div>
@@ -147,7 +154,11 @@ export default {
       interTimer: null
     }
   },
-  methods: {},
+  methods: {
+    actionAndroid(){
+      window.open('https://files.abeychain.com/app/ABEY_v1.0.0_release.apk',"_blank")
+    },
+  },
   mounted () {
     let that = this;
     this.interTimer = setInterval(function () {

@@ -24,18 +24,28 @@
             <span :class="listtext==4?'header-list-text-color':''">Application Scenario</span>
             <div class="line" v-show="listtext==4"></div>
           </div>
-          <div @click="actionGitHub()" class="header-list-text">
-            <span :class="listtext==5?'header-list-text-color':''">GitHub</span>
-            <div class="line" v-show="listtext==5"></div>
-          </div>
-          <div @click="actionDown()" class="header-list-text">
-            <span :class="listtext==6?'header-list-text-color':''">DownLoad</span>
-            <div class="line" v-show="listtext==6"></div>
-          </div>
-<!--          <div @click="actionContact()" class="header-list-text">-->
-<!--            <span :class="listtext==5?'header-list-text-color':''">Contact Us</span>-->
+<!--          <div @click="actionGitHub()" class="header-list-text">-->
+<!--            <span :class="listtext==5?'header-list-text-color':''">GitHub</span>-->
 <!--            <div class="line" v-show="listtext==5"></div>-->
 <!--          </div>-->
+          <div @click="actionDown()" class="header-list-text">
+            <span :class="listtext==6?'header-list-text-color':''">Download</span>
+            <div class="line" v-show="listtext==6"></div>
+          </div>
+          <div class="header-tab">
+            <div  class="header-list-text">
+              <span  style="" @mouseover="showTabs=true" @mouseout="showTabs=false" :class="listtext==7?'header-list-text-color':''">Developer
+
+               <div v-show="showTabs" class="header-tab-info">
+                <div class="tab-info" @click="actionYellowPaper()">Yellow Paper</div>
+                <div class="tab-info" @click="actionExplorer()">Explorer</div>
+                <div @click="actionGitHub()" class="tab-info">Github</div>
+            </div>
+              </span>
+<!--              <div class="line" v-show="listtext==7"></div>-->
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -49,6 +59,7 @@ export default {
   name: 'MyHeader.vue',
   data() {
     return {
+      showTabs:false,
       listtext:0,//选中
       activeNav: 'home',
       selectLangVisible: false, // 选择语言（默认不展示）
@@ -81,6 +92,12 @@ export default {
     window.addEventListener('scroll',this.scrollHandle);
   },
   methods: {
+    actionYellowPaper() {
+      window.open('https://files.abeychain.com/ABEYCHAIN_Yellow_Paper_v1.pdf',"blank")
+    },
+    actionExplorer() {
+      window.open('https://scan.abeychain.com/',"_blank")
+    },
     scrollHandle(e){
       let top = e.srcElement.scrollingElement.scrollTop;    // 获取页面滚动高度
       this.top=top
@@ -143,7 +160,7 @@ export default {
     },
     actionGitHub(){
       this.listtext=5
-      window.open("https://github.com/abeychain")
+      window.open("https://github.com/abeychain","blank")
     },
     actionDown() {
       this.listtext=6
@@ -243,7 +260,7 @@ export default {
     }
 
     .nav-menu {
-      margin-left: 90px;
+      //margin-left: 90px;
       position: relative;
       display: flex;
       flex-direction: row;
@@ -332,6 +349,7 @@ export default {
     }
 
   }
+
   .nav_line {
     position: absolute;
     bottom: 0;
@@ -342,58 +360,38 @@ export default {
     transition-duration: 0.3s;
   }
 
-  .lang-layout {
+  .header-tab {
     position: relative;
-    text-align: right;
-
-    .icon-select {
-      display: inline-block;
-      vertical-align: middle;
-      width: 12px;
-      height: 12px;
-      margin-left: 8px;
-      background-image: url('../assets/image/header/select-top.png');
-      transform: rotate(180deg);
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-
-      &.up {
-        transform: rotate(0);
-        background-image: url('../assets/image/header/select-top.png');
-      }
-    }
-
-    .lang-show {
-      margin-bottom: 10px;
-      display: inline-block;
-    }
-
-    .lang-list {
-      position: absolute;
-      right: 0;
-      width: 164px;
-      background: #ffffff;
-      border: 1px solid #000000;
-      z-index: 999;
-
-      li {
-        width: 100%;
-        cursor: pointer;
-        text-align: center;
-        margin: 0 0;
-        font-size: 14px;
-        font-family: PingFangSC-Regular, PingFang SC;
-        font-weight: 400;
-        color: #000000;
-        line-height: 35px;
-
-        &.active {
-          background: #131313;
-          color: #ffffff;
-        }
-      }
-    }
   }
+
+  .header-tab-info {
+    top: 40px;
+    position: absolute;
+    left: -5%;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tab-info {
+    padding: 5px 10px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .tab-info:hover {
+    cursor: pointer;
+    color:rgba(245, 202, 64, 1) ;
+  }
+
+
+
+
+
 @media(max-width: 1200px) {
   .my-header-s {
     display: none;

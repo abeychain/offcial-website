@@ -27,14 +27,24 @@
 				"path": "infoId"
 			},
 			{
+				"key": "DownLoad",
+				"name": "Download",
+				"path": "downId"
+			},
+			{
 				"key": "github",
 				"name": "GitHub",
 				"path": "https://github.com/abeychain"
 			},
 			{
-				"key": "DownLoad",
-				"name": "download",
-				"path": "downId"
+				"key": "Yellow Paper",
+				"name": "Yellow Paper",
+				"path": "https://files.abeychain.com/ABEYCHAIN_Yellow_Paper_v1.pdf"
+			},
+			{
+				"key": "Explorer",
+				"name": "Explorer",
+				"path": "https://scan.abeychain.com/"
 			}
 		],
 		"langList": [
