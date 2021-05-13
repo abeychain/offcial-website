@@ -156,7 +156,7 @@ export default {
   },
   methods: {
     actionAndroid(){
-      window.open('https://files.abeychain.com/app/ABEY_v1.0.0_release.apk',"_blank")
+      window.open('https://files.abeychain.com/app/ABEY_release.apk',"_blank")
     },
   },
   mounted () {
